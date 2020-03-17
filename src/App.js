@@ -3,6 +3,7 @@ import './App.css';
 import HookCounter from './components/HookCounter';
 import HookCounterSafe from './components/HookCounterSafe';
 import HookStateForm from './components/HookStateForm';
+import HookStateArray from './components/HookStateArray';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <HookCounterSafe />
       <h2>useState() with form example:</h2>
       <HookStateForm />
+      <h2>useState() with array example:</h2>
+      <HookStateArray />
     </div>
   );
 }
