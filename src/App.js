@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import HookCounter from './components/HookCounter';
 import HookCounterSafe from './components/HookCounterSafe';
+import HookStateForm from './components/HookStateForm';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <HookCounter />
       <h2>useState() update state safely example:</h2>
       <HookCounterSafe />
+      <h2>useState() with form example:</h2>
+      <HookStateForm />
     </div>
   );
 }
